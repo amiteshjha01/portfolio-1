@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}About Me - Amitesh Jha{% endblock %}
+{% block content %}
+<header>
+    <h1>About Me</h1>
+    <p>Innovating Through Technology and Education</p>
+</header>
+
+<main class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/static/images/Amitesh_Jha.jpg" style="width: 300px; height: 300px;" alt="Amitesh Jha" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+            <p>Hello, I'm <b>Amitesh Jha</b>, a B.Tech student specializing in Computer Science Engineering at CCSIT, TMU, and a passionate educator with a strong inclination toward technology and innovation.</p>
+                <p>As a dedicated online educator, I have successfully taught Physics to CBSE students up to Class 12 for five years, especially during the COVID-19 pandemic, ensuring quality education even during challenging times. My YouTube channel, <b>Educaation Arena</b>, has become a trusted resource for students, featuring tutorials on Python, Data Structures, and foundational computer science topics.</p>
+                <p><b>Key Achievements and Projects:</b></p>
+                <ul>
+                    <li><b>I Reserve - Seat Booking App:</b> Developed a Flask-based seat booking system with features like wing selection, time slots, and email/SMS notifications, providing a seamless booking experience.</li>
+                    <li><b>Python Tutorials:</b> Created comprehensive series on NumPy, Flask, and Tkinter to help students build real-world projects.</li>
+                    <li><b>Research Publication:</b> Successfully published a research paper titled "Web 2.0 vs Web 3.0: A Comparative Analysis," contributing to the understanding of emerging web technologies.</li>
+                </ul>
+                <p>Beyond academics, I have consistently focused on self-improvement and growth, completing a rigorous course in C++ and Data Structures from Coding Ninjas, where I solved 100 questions in just 21 days. I am also involved in creating responsive portfolios and user-friendly web applications.</p>
+                <p>Join me on this journey to explore the endless possibilities of technology and education. Together, let's innovate, learn, and create a better future!</p>
+            <a href="/projects" class="btn btn-primary mt-4">Explore My Projects</a>
+        </div>
+    </div>
+</main>
+{% endblock %}
